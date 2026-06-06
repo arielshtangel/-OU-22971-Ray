@@ -4,6 +4,7 @@ set -euo pipefail
 WORKERS=2
 RAY_JOBS_ADDRESS="http://127.0.0.1:8265"
 CLUSTER_ARTIFACT_ROOT="/workspace/ray_capstone"
+CONDA_ENV_NAME="22971-ray"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -57,12 +58,25 @@ else
 fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CLUSTER_ROOT="$(cd "$SCRIPT_DIR/../../1_cluster_setup" && pwd)"
+
+if [[ -d "$SCRIPT_DIR/../../1_cluster_setup" ]]; then
+  CLUSTER_ROOT="$(cd "$SCRIPT_DIR/../../1_cluster_setup" && pwd)"
+elif [[ -d "$SCRIPT_DIR/../1_cluster_setup" ]]; then
+  CLUSTER_ROOT="$(cd "$SCRIPT_DIR/../1_cluster_setup" && pwd)"
+else
+  echo "Could not find 1_cluster_setup relative to $SCRIPT_DIR." >&2
+  echo "Expected one of:" >&2
+  echo "  $SCRIPT_DIR/../../1_cluster_setup" >&2
+  echo "  $SCRIPT_DIR/../1_cluster_setup" >&2
+  exit 1
+fi
+
 HOST_WORKSPACE_ROOT="$CLUSTER_ROOT/head_workspace"
 HOST_SUBMISSION_ROOT="$HOST_WORKSPACE_ROOT/ray_capstone_submission"
 CONTAINER_SUBMISSION_ROOT="/workspace/ray_capstone_submission"
+CONTAINER_PYTHON="/opt/conda/envs/$CONDA_ENV_NAME/bin/python"
 
-JOB_COMMAND="mkdir -p $CLUSTER_ARTIFACT_ROOT/notebooks $CLUSTER_ARTIFACT_ROOT/data $CLUSTER_ARTIFACT_ROOT/prepared $CLUSTER_ARTIFACT_ROOT/outputs && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto python -m nbconvert --to notebook --execute 01_download_real_data.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 01_download_real_data.cluster.ipynb && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto python -m nbconvert --to notebook --execute 02_prepare_assets.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 02_prepare_assets.cluster.ipynb && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto python -m nbconvert --to notebook --execute 03_run_replay.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 03_run_replay.cluster.ipynb"
+JOB_COMMAND="test -x $CONTAINER_PYTHON && echo Running notebooks with $CONTAINER_PYTHON && mkdir -p $CLUSTER_ARTIFACT_ROOT/notebooks $CLUSTER_ARTIFACT_ROOT/data $CLUSTER_ARTIFACT_ROOT/prepared $CLUSTER_ARTIFACT_ROOT/outputs && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto $CONTAINER_PYTHON -m nbconvert --to notebook --execute 01_download_real_data.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 01_download_real_data.cluster.ipynb && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto $CONTAINER_PYTHON -m nbconvert --to notebook --execute 02_prepare_assets.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 02_prepare_assets.cluster.ipynb && CAPSTONE_DATA_DIR=$CLUSTER_ARTIFACT_ROOT/data CAPSTONE_PREPARED_DIR=$CLUSTER_ARTIFACT_ROOT/prepared CAPSTONE_OUTPUT_ROOT=$CLUSTER_ARTIFACT_ROOT/outputs RAY_ADDRESS=auto $CONTAINER_PYTHON -m nbconvert --to notebook --execute 03_run_replay.ipynb --output-dir $CLUSTER_ARTIFACT_ROOT/notebooks --output 03_run_replay.cluster.ipynb"
 
 show_docker_info() {
   echo
@@ -79,7 +93,9 @@ copy_submission_files() {
   cp -f "$SCRIPT_DIR/01_download_real_data.ipynb" "$HOST_SUBMISSION_ROOT/"
   cp -f "$SCRIPT_DIR/02_prepare_assets.ipynb" "$HOST_SUBMISSION_ROOT/"
   cp -f "$SCRIPT_DIR/03_run_replay.ipynb" "$HOST_SUBMISSION_ROOT/"
-  cp -f "$SCRIPT_DIR/README.md" "$HOST_SUBMISSION_ROOT/"
+  if [[ -f "$SCRIPT_DIR/README.md" ]]; then
+    cp -f "$SCRIPT_DIR/README.md" "$HOST_SUBMISSION_ROOT/"
+  fi
 }
 
 wait_for_ray_head() {
@@ -108,7 +124,7 @@ wait_for_ray_head
 
 "${DOCKER_COMPOSE[@]}" ps
 docker ps --filter "name=ray" --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}'
-docker exec ray-head bash -lc "hostname && source /opt/conda/etc/profile.d/conda.sh && conda activate 22971-ray && ray status"
+docker exec ray-head bash -lc "hostname && source /opt/conda/etc/profile.d/conda.sh && conda activate $CONDA_ENV_NAME && echo Conda env: \$CONDA_DEFAULT_ENV && which python && python -m nbconvert --version && ray status"
 
-docker exec ray-head bash -lc "source /opt/conda/etc/profile.d/conda.sh && conda activate 22971-ray && ray job submit --address $RAY_JOBS_ADDRESS --working-dir $CONTAINER_SUBMISSION_ROOT -- bash -lc '$JOB_COMMAND'"
+docker exec ray-head bash -lc "source /opt/conda/etc/profile.d/conda.sh && conda activate $CONDA_ENV_NAME && ray job submit --address $RAY_JOBS_ADDRESS --working-dir $CONTAINER_SUBMISSION_ROOT -- bash -lc '$JOB_COMMAND'"
 popd >/dev/null
