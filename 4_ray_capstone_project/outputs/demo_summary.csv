@@ -1,0 +1,5 @@
+run,mode,ticks,zones,actor_count,accepted_decisions,score_task_results_used,slow_task_results,fallback_decisions,need_decisions,ok_decisions,total_tick_latency_s,mean_tick_latency_s,max_tick_latency_s,mean_completed_before_finalize,late_reports,duplicate_reports,duplicate_writes,policy_reasons,decision_sources,artifact_dir
+blocking,blocking,48,6,6,288,288,100,0,22,266,35.317,0.736,18.725,6.0,0,0,0,{'all_results_returned': 48},{'controller': 288},/workspace/ray_capstone/outputs/notebook_blocking
+async,async,48,6,6,288,160,0,128,23,265,23.402,0.488,9.947,3.06,105,29,0,"{'timeout': 39, 'completion_fraction': 9}","{'reported': 160, 'fallback': 128}",/workspace/ray_capstone/outputs/notebook_async
+stress_blocking,stress_blocking,48,6,6,288,288,211,0,22,266,42.163,0.878,9.877,6.0,0,0,0,{'all_results_returned': 48},{'controller': 288},/workspace/ray_capstone/outputs/notebook_stress/blocking
+stress_async,stress_async,48,6,6,288,23,0,265,43,245,24.384,0.508,7.75,0.25,158,4,0,{'timeout': 48},"{'fallback': 265, 'reported': 23}",/workspace/ray_capstone/outputs/notebook_stress/async

@@ -1,0 +1,113 @@
+[
+  {
+    "accepted_decisions": 288,
+    "actor_count": 6,
+    "artifact_dir": "/workspace/ray_capstone/outputs/notebook_blocking",
+    "decision_sources": {
+      "controller": 288
+    },
+    "duplicate_reports": 0,
+    "duplicate_writes": 0,
+    "fallback_decisions": 0,
+    "late_reports": 0,
+    "max_tick_latency_s": 18.725,
+    "mean_completed_before_finalize": 6.0,
+    "mean_tick_latency_s": 0.736,
+    "mode": "blocking",
+    "need_decisions": 22,
+    "ok_decisions": 266,
+    "policy_reasons": {
+      "all_results_returned": 48
+    },
+    "run": "blocking",
+    "score_task_results_used": 288,
+    "slow_task_results": 100,
+    "ticks": 48,
+    "total_tick_latency_s": 35.317,
+    "zones": 6
+  },
+  {
+    "accepted_decisions": 288,
+    "actor_count": 6,
+    "artifact_dir": "/workspace/ray_capstone/outputs/notebook_async",
+    "decision_sources": {
+      "fallback": 128,
+      "reported": 160
+    },
+    "duplicate_reports": 29,
+    "duplicate_writes": 0,
+    "fallback_decisions": 128,
+    "late_reports": 105,
+    "max_tick_latency_s": 9.947,
+    "mean_completed_before_finalize": 3.06,
+    "mean_tick_latency_s": 0.488,
+    "mode": "async",
+    "need_decisions": 23,
+    "ok_decisions": 265,
+    "policy_reasons": {
+      "completion_fraction": 9,
+      "timeout": 39
+    },
+    "run": "async",
+    "score_task_results_used": 160,
+    "slow_task_results": 0,
+    "ticks": 48,
+    "total_tick_latency_s": 23.402,
+    "zones": 6
+  },
+  {
+    "accepted_decisions": 288,
+    "actor_count": 6,
+    "artifact_dir": "/workspace/ray_capstone/outputs/notebook_stress/blocking",
+    "decision_sources": {
+      "controller": 288
+    },
+    "duplicate_reports": 0,
+    "duplicate_writes": 0,
+    "fallback_decisions": 0,
+    "late_reports": 0,
+    "max_tick_latency_s": 9.877,
+    "mean_completed_before_finalize": 6.0,
+    "mean_tick_latency_s": 0.878,
+    "mode": "stress_blocking",
+    "need_decisions": 22,
+    "ok_decisions": 266,
+    "policy_reasons": {
+      "all_results_returned": 48
+    },
+    "run": "stress_blocking",
+    "score_task_results_used": 288,
+    "slow_task_results": 211,
+    "ticks": 48,
+    "total_tick_latency_s": 42.163,
+    "zones": 6
+  },
+  {
+    "accepted_decisions": 288,
+    "actor_count": 6,
+    "artifact_dir": "/workspace/ray_capstone/outputs/notebook_stress/async",
+    "decision_sources": {
+      "fallback": 265,
+      "reported": 23
+    },
+    "duplicate_reports": 4,
+    "duplicate_writes": 0,
+    "fallback_decisions": 265,
+    "late_reports": 158,
+    "max_tick_latency_s": 7.75,
+    "mean_completed_before_finalize": 0.25,
+    "mean_tick_latency_s": 0.508,
+    "mode": "stress_async",
+    "need_decisions": 43,
+    "ok_decisions": 245,
+    "policy_reasons": {
+      "timeout": 48
+    },
+    "run": "stress_async",
+    "score_task_results_used": 23,
+    "slow_task_results": 0,
+    "ticks": 48,
+    "total_tick_latency_s": 24.384,
+    "zones": 6
+  }
+]
