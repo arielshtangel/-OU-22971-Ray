@@ -1,0 +1,44 @@
+[
+  {
+    "duplicate_reports": 1,
+    "duplicate_writes": 0,
+    "fallbacks": 39,
+    "late_reports": 47,
+    "zone_id": 41
+  },
+  {
+    "duplicate_reports": 1,
+    "duplicate_writes": 0,
+    "fallbacks": 44,
+    "late_reports": 50,
+    "zone_id": 74
+  },
+  {
+    "duplicate_reports": 2,
+    "duplicate_writes": 0,
+    "fallbacks": 42,
+    "late_reports": 52,
+    "zone_id": 75
+  },
+  {
+    "duplicate_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 45,
+    "late_reports": 7,
+    "zone_id": 82
+  },
+  {
+    "duplicate_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 47,
+    "late_reports": 2,
+    "zone_id": 95
+  },
+  {
+    "duplicate_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 48,
+    "late_reports": 0,
+    "zone_id": 166
+  }
+]
