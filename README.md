@@ -46,8 +46,6 @@ python -m nbconvert --to notebook --execute 03_run_replay.ipynb --output 03_run_
 
 ## GitHub Codespaces Docker-Cluster Run
 
-Use this flow when you do not have Docker Desktop on your computer and do not have a separate remote VM. GitHub Codespaces is the Linux environment and Docker host for the demo.
-
 In Codespaces, open a terminal and go to the folder that contains `run_on_docker_engine.sh`.
 
 For the original solution-folder layout:
