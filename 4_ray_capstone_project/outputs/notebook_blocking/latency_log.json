@@ -1,0 +1,2018 @@
+[
+  {
+    "slow_task": false,
+    "task_latency_s": 5.364199932955671e-05,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.301216855000348,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 5.293600042932667e-05,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001581480002642,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 5.901399981667055e-05,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 5.521500042959815e-05,
+    "tick_id": 0,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001235860001543,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.938200006814441e-05,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3002007799996136,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30082307900011074,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001030380000884,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30121272899941687,
+    "tick_id": 1,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011824399934994,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 5.026700000598794e-05,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.031099979329156e-05,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001248640002814,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.475299970683409e-05,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.0691000322112814e-05,
+    "tick_id": 2,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6527000045462046e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9645999347849283e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.424300004757242e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.4219999431807082e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2917000023880973e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.205700068065198e-05,
+    "tick_id": 3,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.1975999920396134e-05,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.635699977166951e-05,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.5135999496560544e-05,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2812000679550692e-05,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.9925000742659904e-05,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3072254950002389,
+    "tick_id": 4,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3043379949995142,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3256808159994762,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3893999898282345e-05,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.86170006802422e-05,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2801999875809997e-05,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3007323890005864,
+    "tick_id": 5,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.4855999981809873e-05,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30018420799933665,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001149239998995,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5459999960730784e-05,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.735900034167571e-05,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.133900008833734e-05,
+    "tick_id": 6,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.219300015189219e-05,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.7287000193609856e-05,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.36559996867436e-05,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.148300038446905e-05,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.12470001517795e-05,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3000886459994945,
+    "tick_id": 7,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5796999580052216e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.723899953911314e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3520999750180636e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.199700040568132e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.703400059544947e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.7912999939871952e-05,
+    "tick_id": 8,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001255259996469,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30014106200087554,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.175799974997062e-05,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.03189999613096e-05,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.625700017233612e-05,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001179909997518,
+    "tick_id": 9,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6327000341552775e-05,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001068240000677,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9677999918931164e-05,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.358799974899739e-05,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010844400021597,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.1972000215318985e-05,
+    "tick_id": 10,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001245989999006,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.147699953842675e-05,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.1691999538452365e-05,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6138999601243995e-05,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6237999918521382e-05,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.3283999325940385e-05,
+    "tick_id": 11,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2189999981492292e-05,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30012209600045026,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001579629999469,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.86099996426492e-05,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.216199936810881e-05,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.255199979117606e-05,
+    "tick_id": 12,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.7600999601418152e-05,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001138350000474,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 0.0007570849993498996,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010840500017366,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.1543000406818464e-05,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.075899960298557e-05,
+    "tick_id": 13,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30015852500037,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5981999897339847e-05,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30015890699996817,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3012647420000576,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300108573000216,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.493900046829367e-05,
+    "tick_id": 14,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.586300044844393e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.5183999898436014e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.721799955907045e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.780599970719777e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.320100040582474e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.202299947384745e-05,
+    "tick_id": 15,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.166699960071128e-05,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30012055200040777,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2698999600834213e-05,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.980599947477458e-05,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.028799983439967e-05,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300156682999841,
+    "tick_id": 16,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.331100015202537e-05,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.917100002581719e-05,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.330900017317617e-05,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001129599997512,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001239519999217,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8554999516927637e-05,
+    "tick_id": 17,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011083299996244,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1395999283413403e-05,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.491200004646089e-05,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3000970330003838,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.7160000425064936e-05,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300107238000237,
+    "tick_id": 18,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.4281000150949694e-05,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010749900066,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9316000109247398e-05,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010766000032163,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30016070999954536,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010808800034283,
+    "tick_id": 19,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.4590000319003593e-05,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3402000553905964e-05,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001621220000743,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.301400036230916e-05,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.265599934820784e-05,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001064250001946,
+    "tick_id": 20,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001122240002587,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.335800010972889e-05,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5395000193384476e-05,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6013000024249777e-05,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.15670004056301e-05,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30097173800004384,
+    "tick_id": 21,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.5829999938432593e-05,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.921900068031391e-05,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001080109997929,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.1719999747583643e-05,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.1486000403237995e-05,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.226699987455504e-05,
+    "tick_id": 22,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 5.304499973135535e-05,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001325730001554,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8725999982270878e-05,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.517599998303922e-05,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.183700027875602e-05,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.296999966551084e-05,
+    "tick_id": 23,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.6446999325125944e-05,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30084213800000725,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1457000002556015e-05,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3464000807725824e-05,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.46629994965042e-05,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3002191080004195,
+    "tick_id": 24,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30035342300016055,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3506999898236245e-05,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.534299983381061e-05,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.6115000259305816e-05,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8131000362918712e-05,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.4421000236761756e-05,
+    "tick_id": 25,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6013000024249777e-05,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.5707999813894276e-05,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30018752700016194,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011868800011143,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.946399970620405e-05,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.2575999537366442e-05,
+    "tick_id": 26,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.6374000551877543e-05,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30013995499939483,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5594000362616498e-05,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30013846600013494,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3456999517511576e-05,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001299050001762,
+    "tick_id": 27,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.462099994067103e-05,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001192989995616,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3008503130004101,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001176210000267,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.075400036323117e-05,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001390689996697,
+    "tick_id": 28,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1564000235230196e-05,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3032702139998946,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.979200053232489e-05,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.0000000404252205e-05,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.6296000467264093e-05,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.661199985392159e-05,
+    "tick_id": 29,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30656127099973673,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001138030003858,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.4860000596381724e-05,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3004313550000006,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.331199993932387e-05,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300119925999752,
+    "tick_id": 30,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001132409999627,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.0287000299722422e-05,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5238000489480328e-05,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300115304999963,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.429099979257444e-05,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30060796499947173,
+    "tick_id": 31,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011156700038555,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.4702999982982874e-05,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001125069995396,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001297419996263,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.3040999622025993e-05,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.0094999854336493e-05,
+    "tick_id": 32,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001324620008745,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.5086000277951825e-05,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.4999000490643084e-05,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.734200031933142e-05,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30016372199952457,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.088899964292068e-05,
+    "tick_id": 33,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001107000000047,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.28030000673607e-05,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.7748999855248258e-05,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.190999930462567e-05,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3002656959997694,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1918999664194416e-05,
+    "tick_id": 34,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.7740000405174214e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.4358999982941896e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8135999855294358e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8172000384074636e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.3695000891166274e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.04719999601366e-05,
+    "tick_id": 35,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011046700019506,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.4889000087569002e-05,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.472499975032406e-05,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.294399994047126e-05,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.383700029895408e-05,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3002682329997697,
+    "tick_id": 36,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30012544700002763,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.209400074410951e-05,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001082499995391,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.0139999833190814e-05,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1965000087220687e-05,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8002999897580594e-05,
+    "tick_id": 37,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.5515000086452346e-05,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.70699999621138e-05,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001190790000692,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001164629995401,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30012930300017615,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.4276000001700595e-05,
+    "tick_id": 38,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3006417569995392,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30021880699951,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.421200017328374e-05,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.341600000159815e-05,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.5176999113464262e-05,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.3465000089781824e-05,
+    "tick_id": 39,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001052190002156,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8899999961140566e-05,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.0590999560663477e-05,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.3029000405804254e-05,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.6822000108950306e-05,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.300114671999836,
+    "tick_id": 40,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8432999897631817e-05,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010583399962343,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011443799958215,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3003680159999931,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001109329998144,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9663000532309525e-05,
+    "tick_id": 41,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3007167659998231,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.2190000638365746e-05,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.592300072341459e-05,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.7798000044422224e-05,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.93859996215906e-05,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.4867000320227817e-05,
+    "tick_id": 42,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.702699955785647e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.919600021617953e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.589799962355755e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.3265000234241597e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 1.4789000488235615e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.033400051004719e-05,
+    "tick_id": 43,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001176320003651,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.14030003210064e-05,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 0.0012046120000377414,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.586999991966877e-05,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.8249000024516135e-05,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30021221000060905,
+    "tick_id": 44,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.1458999981405213e-05,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001295260000916,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.103300034330459e-05,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001512709997769,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.793200019368669e-05,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30010309099998267,
+    "tick_id": 45,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 4.474200068216305e-05,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.475500034255674e-05,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 0.0005301339997458854,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9042000278423075e-05,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.251599926239578e-05,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3004813009993086,
+    "tick_id": 46,
+    "used_fallback": false,
+    "zone_id": 166
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 2.9384999834292103e-05,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 41
+  },
+  {
+    "slow_task": false,
+    "task_latency_s": 3.438800013100263e-05,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 74
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3001210290003655,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 75
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30014166999990266,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 82
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.30011815799934993,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 95
+  },
+  {
+    "slow_task": true,
+    "task_latency_s": 0.3024420679994364,
+    "tick_id": 47,
+    "used_fallback": false,
+    "zone_id": 166
+  }
+]
