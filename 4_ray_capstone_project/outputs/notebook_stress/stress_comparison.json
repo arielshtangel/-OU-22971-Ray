@@ -1,0 +1,9 @@
+{
+  "async_total_fallbacks": 265,
+  "async_total_tick_latency_s": 24.384234536002623,
+  "blocking_total_fallbacks": 0,
+  "blocking_total_tick_latency_s": 42.16267164099645,
+  "completion_fraction": 0.5,
+  "slow_zone_fraction": 0.75,
+  "slow_zone_sleep_s": 0.6
+}
